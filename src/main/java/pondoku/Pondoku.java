@@ -12,5 +12,8 @@ public class Pondoku {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        main m = new main();
+        m.setLocationRelativeTo(null);
+        m.setVisible(true);
     }
 }
